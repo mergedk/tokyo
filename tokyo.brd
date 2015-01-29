@@ -808,6 +808,9 @@ design rules under a new name.</description>
 </element>
 <element name="D8" library="supressors" package="DO-214AB" value="SMCJ400CA" x="14.478" y="16.256" smashed="yes" rot="MR180">
 <attribute name="NAME" x="15.338" y="12.716" size="1.016" layer="26" ratio="10" rot="MR180"/>
+<attribute name="MOUSER#" value="576-SMCJ400CA" x="14.478" y="16.256" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF#" value="SMCJ400CA" x="14.478" y="16.256" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Littelfuse" x="14.478" y="16.256" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="D7" library="diodes" package="MINIDIP" value="HD06" x="24.13" y="17.78" smashed="yes" rot="MR90">
 <attribute name="MOUSER#" value="621-HD06T" x="24.13" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -817,6 +820,9 @@ design rules under a new name.</description>
 </element>
 <element name="D5" library="diodes" package="DO-214AA" value="MURS360S" x="58.195" y="27.11" smashed="yes" rot="MR180">
 <attribute name="NAME" x="60.53" y="29.22" size="1.016" layer="26" ratio="10" rot="MR0"/>
+<attribute name="MOUSER#" value="625-MURS360S-E3" x="58.195" y="27.11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF#" value="MURS360S" x="58.195" y="27.11" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Vishay" x="58.195" y="27.11" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="D6" library="diodes" package="SOT23" value="BAS21" x="52.17" y="9.89" smashed="yes" rot="MR0">
 <attribute name="MOUSER#" value="512-BAS21" x="52.17" y="9.89" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -826,6 +832,9 @@ design rules under a new name.</description>
 </element>
 <element name="D3" library="diodes" package="POWERDI5" value="PDS1040L" x="78.028" y="16.798" smashed="yes" rot="MR270">
 <attribute name="NAME" x="78.574" y="10.273" size="1.016" layer="26" ratio="10" rot="MR270"/>
+<attribute name="MOUSER#" value="621-PDS1040L-13" x="78.028" y="16.798" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF#" value="PDS1040L" x="78.028" y="16.798" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Diodes Inc." x="78.028" y="16.798" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="D1" library="diodes" package="SOT23" value="BAS21" x="108.55" y="15.79" smashed="yes" rot="MR0">
 <attribute name="MOUSER#" value="512-BAS21" x="108.55" y="15.79" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -843,6 +852,8 @@ design rules under a new name.</description>
 </element>
 <element name="J2" library="board-to-board" package="254-2X5M" value="254-2X5M" x="98.65" y="7.08" locked="yes" smashed="yes">
 <attribute name="NAME" x="91.105" y="5.72" size="1.27" layer="25" ratio="10" align="bottom-right"/>
+<attribute name="MF#" value="613 010 210 21" x="98.65" y="7.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Würth Elektronik" x="98.65" y="7.08" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LD1" library="unsorted" package="LED3" value="LED3" x="107.629" y="23.663" smashed="yes" rot="R180">
 <attribute name="NAME" x="107.734" y="26.977" size="1.016" layer="25" ratio="10" rot="R180"/>
@@ -869,6 +880,9 @@ design rules under a new name.</description>
 </element>
 <element name="Q1" library="transistors" package="DPAK" value="STD6N95K5" x="47.26" y="18.18" smashed="yes" rot="MR180">
 <attribute name="NAME" x="45.7152" y="23.61" size="1.016" layer="26" ratio="10" rot="MR270"/>
+<attribute name="MOUSER#" value="511-STD6N95K5" x="47.26" y="18.18" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF#" value="STD6N95K5" x="47.26" y="18.18" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="ST Microelectronics" x="47.26" y="18.18" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R1" library="resistors" package="15X6" value="ULW3-10RJ" x="20.5" y="17" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.1" y="25.3" size="1.016" layer="25" ratio="10"/>
@@ -896,6 +910,9 @@ design rules under a new name.</description>
 </element>
 <element name="RL1" library="relais" package="V23105" value="V23105" x="102.244" y="16.186" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.5848" y="21.4694" size="1.016" layer="25" ratio="10"/>
+<attribute name="MOUSER#" value="655-V23105A5001A201" x="102.244" y="16.186" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF#" value="V23105A5001A201" x="102.244" y="16.186" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="TE Connectivity" x="102.244" y="16.186" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T1" library="powermagnetics" package="EE16" value="750313823" x="64.5" y="17" smashed="yes">
 <attribute name="MF#" value="750 313 823" x="64.5" y="17" size="1.778" layer="27" display="off"/>
@@ -904,6 +921,9 @@ design rules under a new name.</description>
 </element>
 <element name="U1" library="integratedcircuits" package="SOIC7" value="UCC28710" x="40.71" y="8.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="41.41" y="4.58" size="1.016" layer="26" ratio="10" rot="MR0"/>
+<attribute name="MOUSER#" value="595-UCC28710D" x="40.71" y="8.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF#" value="UCC28710D" x="40.71" y="8.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="40.71" y="8.48" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="X1" library="board-to-wire" package="508-1X3B" value="508-1X3B" x="6.5" y="17" locked="yes" smashed="yes">
 <attribute name="MF#" value="691 313 510 003" x="6.5" y="17" size="1.778" layer="27" display="off"/>
@@ -912,6 +932,9 @@ design rules under a new name.</description>
 </element>
 <element name="D4" library="supressors" package="DO-214AA" value="SMBJ85A" x="61.75" y="21.2" smashed="yes" rot="MR180">
 <attribute name="NAME" x="66.638" y="20.904" size="1.016" layer="26" ratio="10" rot="SMR0"/>
+<attribute name="MOUSER#" value="652-SMBJ85A" x="61.75" y="21.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF#" value="SMBJ85A" x="61.75" y="21.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Bourns" x="61.75" y="21.2" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R13" library="resistors" package="1206" value="332k" x="27" y="8.2" smashed="yes" rot="MR270">
 <attribute name="NAME" x="24.54" y="5.8756" size="1.016" layer="26" ratio="10" rot="SMR90"/>
@@ -921,6 +944,8 @@ design rules under a new name.</description>
 </element>
 <element name="L1" library="powermagnetics" package="7447462471" value="7447462471" x="28" y="22.6" smashed="yes">
 <attribute name="NAME" x="27.365" y="26.075" size="1.016" layer="25" ratio="10"/>
+<attribute name="MF#" value="744 746 247" x="28" y="22.6" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Würth Elektronik" x="28" y="22.6" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R9" library="resistors" package="0603" value="10" x="42.2" y="12.9" smashed="yes" rot="MR90">
 <attribute name="NAME" x="39.205" y="11.3756" size="1.016" layer="26" ratio="10" rot="SMR90"/>
@@ -945,6 +970,9 @@ design rules under a new name.</description>
 </element>
 <element name="TP1" library="unsorted" package="TESTPOINT" value="TESTPOINT" x="29.2" y="28.2" smashed="yes">
 <attribute name="NAME" x="27.37" y="29.2" size="1.016" layer="25" ratio="10"/>
+<attribute name="MOUSER#" value="151-203-RC" x="29.2" y="28.2" size="1.778" layer="27" display="off"/>
+<attribute name="MF#" value="151-203-RC" x="29.2" y="28.2" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Kobiconn" x="29.2" y="28.2" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

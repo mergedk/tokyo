@@ -579,7 +579,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbols>
 <devicesets>
 <deviceset name="SMCJ400CA" prefix="D">
-<description>400 V, 1500 W bidirectional transient voltage supressor</description>
+<description>400 V, 1500 W bidirectional transient voltage suppressor</description>
 <gates>
 <gate name="G$1" symbol="BIDIRECTIONALSUPRESSOR" x="0" y="0"/>
 </gates>
@@ -590,13 +590,17 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MF#" value="SMCJ400CA" constant="no"/>
+<attribute name="MOUSER#" value="576-SMCJ400CA" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="SMBJ85A" prefix="D">
-<description>85 V, 600 W bidirectional transient voltage supressor</description>
+<description>85 V, 600 W transient voltage suppressor</description>
 <gates>
 <gate name="G$1" symbol="UNIDIRECTIONALSUPRESSOR" x="0" y="0"/>
 </gates>
@@ -607,7 +611,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Bourns" constant="no"/>
+<attribute name="MF#" value="SMBJ85A" constant="no"/>
+<attribute name="MOUSER#" value="652-SMBJ85A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -729,7 +737,7 @@ DIN A3, landscape with location and doc. field</description>
 </devices>
 </deviceset>
 <deviceset name="MURS360S" prefix="D">
-<description>Surface Mount Ultrafast Plastic Rectifier 3A - 600V</description>
+<description>3 A  600 V ultrafast rectifier</description>
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
@@ -740,7 +748,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Vishay" constant="no"/>
+<attribute name="MF#" value="MURS360S" constant="no"/>
+<attribute name="MOUSER#" value="625-MURS360S-E3" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -767,6 +779,7 @@ DIN A3, landscape with location and doc. field</description>
 </devices>
 </deviceset>
 <deviceset name="PDS1040L" prefix="D">
+<description>2 A 40 V schottky rectifier</description>
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
@@ -777,7 +790,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="P$1 P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Diodes Inc." constant="no"/>
+<attribute name="MF#" value="PDS1040L" constant="no"/>
+<attribute name="MOUSER#" value="621-PDS1040L-13" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -932,6 +949,7 @@ DIN A3, landscape with location and doc. field</description>
 </devices>
 </deviceset>
 <deviceset name="TESTPOINT" prefix="TP">
+<description>test point (black)</description>
 <gates>
 <gate name="G$1" symbol="TESTPOINT" x="0" y="0"/>
 </gates>
@@ -941,7 +959,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Kobiconn" constant="no"/>
+<attribute name="MF#" value="151-203-RC" constant="no"/>
+<attribute name="MOUSER#" value="151-203-RC" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1098,7 +1120,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbols>
 <devicesets>
 <deviceset name="STD6N95K5" prefix="Q">
-<description>Power MOSFETs N-channel 950 V, 1 Ω typ</description>
+<description>950 V 9 A N-channel power mosfet</description>
 <gates>
 <gate name="G$1" symbol="N-CHANNEL" x="-2.54" y="0"/>
 </gates>
@@ -1110,7 +1132,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="ST Microelectronics" constant="no"/>
+<attribute name="MF#" value="STD6N95K5" constant="no"/>
+<attribute name="MOUSER#" value="511-STD6N95K5" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1172,7 +1198,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VS" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MF#" value="UCC28710D" constant="no"/>
+<attribute name="MOUSER#" value="595-UCC28710D" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1311,6 +1341,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbols>
 <devicesets>
 <deviceset name="254-2X5M" prefix="J" uservalue="yes">
+<description>2.54 mm angled dual pin header</description>
 <gates>
 <gate name="G$1" symbol="2X5" x="0" y="0"/>
 </gates>
@@ -1329,7 +1360,10 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Würth Elektronik" constant="no"/>
+<attribute name="MF#" value="613 010 210 21" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1468,7 +1502,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$3" pin="S" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="TE Connectivity" constant="no"/>
+<attribute name="MF#" value="V23105A5001A201" constant="no"/>
+<attribute name="MOUSER#" value="655-V23105A5001A201" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1587,7 +1625,10 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Würth Elektronik" constant="no"/>
+<attribute name="MF#" value="744 746 247" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
