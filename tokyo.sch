@@ -674,9 +674,9 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="1.3" y1="1.175" x2="0.85" y2="1.175" width="0.254" layer="21"/>
 </package>
 <package name="POWERDI5">
-<smd name="P$1" x="-0.7" y="1.1" dx="1.6" dy="1.4" layer="1"/>
-<smd name="P$2" x="-0.7" y="-1.1" dx="1.6" dy="1.4" layer="1"/>
-<smd name="P$3" x="3.5" y="0" dx="5" dy="3.6" layer="1"/>
+<smd name="1" x="-0.7" y="1.1" dx="1.6" dy="1.4" layer="1"/>
+<smd name="2" x="-0.7" y="-1.1" dx="1.6" dy="1.4" layer="1"/>
+<smd name="3" x="3.5" y="0" dx="5" dy="3.6" layer="1"/>
 <wire x1="-1.27" y1="2.2" x2="5.08" y2="2.2" width="0.254" layer="21"/>
 <wire x1="-1.27" y1="-2.2" x2="5.08" y2="-2.2" width="0.254" layer="21"/>
 <text x="-0.975" y="2.454" size="1.016" layer="25" ratio="10">&gt;NAME</text>
@@ -800,8 +800,8 @@ DIN A3, landscape with location and doc. field</description>
 <devices>
 <device name="" package="POWERDI5">
 <connects>
-<connect gate="G$1" pin="1" pad="P$3"/>
-<connect gate="G$1" pin="2" pad="P$1 P$2"/>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="1 2"/>
 </connects>
 <technologies>
 <technology name="">
