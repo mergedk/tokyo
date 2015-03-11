@@ -208,7 +208,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-0.254" y1="0.7" x2="0.254" y2="0.7" width="0.18" layer="22"/>
 <wire x1="-0.254" y1="-0.7" x2="0.254" y2="-0.7" width="0.18" layer="22"/>
 </package>
-<package name="13X8">
+<package name="14X8">
 <pad name="1" x="-5" y="0" drill="0.8" diameter="1.6"/>
 <pad name="2" x="5" y="0" drill="0.8" diameter="1.6"/>
 <wire x1="6.5" y1="-4" x2="-6.5" y2="-4" width="0.127" layer="21"/>
@@ -316,7 +316,7 @@ DIN A3, landscape with location and doc. field</description>
 </technology>
 </technologies>
 </device>
-<device name="13X8" package="13X8">
+<device name="14X8" package="14X8">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -813,7 +813,8 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1SMB59XXBT3G" prefix="D">
+<deviceset name="1SMB5919BT3G" prefix="D">
+<description>5.6 V 3 W zener voltage regulator</description>
 <gates>
 <gate name="G$1" symbol="ZENER" x="0" y="0"/>
 </gates>
@@ -824,7 +825,11 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="ON Semiconductor" constant="no"/>
+<attribute name="MF#" value="1SMB5919BT3G" constant="no"/>
+<attribute name="MOUSER#" value="863-1SMB5919BT3G" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -950,6 +955,7 @@ DIN A3, landscape with location and doc. field</description>
 </devices>
 </deviceset>
 <deviceset name="FIDUCIAL" prefix="FIDUCIAL">
+<description>fiducial mark</description>
 <gates>
 <gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
 </gates>
@@ -1355,7 +1361,6 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-1.905" y1="1.905" x2="-1.905" y2="3.175" width="0.254" layer="94" curve="-180" cap="flat"/>
 <wire x1="1.905" y1="5.715" x2="1.905" y2="4.445" width="0.254" layer="94" curve="-180" cap="flat"/>
 <wire x1="1.905" y1="3.175" x2="1.905" y2="1.905" width="0.254" layer="94" curve="-180" cap="flat"/>
-<text x="-3.81" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-3.81" y="8.382" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="3" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
@@ -1370,7 +1375,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="254-2X5M" prefix="J" uservalue="yes">
+<deviceset name="254-2X5M" prefix="J">
 <description>2.54 mm angled dual pin header</description>
 <gates>
 <gate name="G$1" symbol="2X5" x="0" y="0"/>
@@ -1398,7 +1403,7 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="254-2X5F" prefix="J" uservalue="yes">
+<deviceset name="254-2X5F" prefix="J">
 <description>2.54 mm angled dual pin socket</description>
 <gates>
 <gate name="G$1" symbol="2X5" x="0" y="0"/>
@@ -1569,6 +1574,7 @@ DIN A3, landscape with location and doc. field</description>
 </devices>
 </deviceset>
 <deviceset name="744821150" prefix="L">
+<description>5.0 mH 1.0 A power line choke</description>
 <gates>
 <gate name="G$1" symbol="CHOKE" x="0" y="0"/>
 </gates>
@@ -1581,7 +1587,10 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Würth Elektronik" constant="no"/>
+<attribute name="MF#" value="744 821 150" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1600,9 +1609,9 @@ DIN A3, landscape with location and doc. field</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3LANDSCAPE" device=""/>
 <part name="X1" library="board-to-wire" deviceset="508-1X3B" device=""/>
-<part name="C1" library="capacitors" deviceset="C" device="13X8" value="220n/275V"/>
-<part name="C12" library="capacitors" deviceset="C" device="2211" value="2200p/250V"/>
-<part name="C13" library="capacitors" deviceset="C" device="2211" value="2200p/250V"/>
+<part name="C1" library="capacitors" deviceset="C" device="14X8" value="220n/275Vac"/>
+<part name="C12" library="capacitors" deviceset="C" device="2211" value="2200p/250Vac"/>
+<part name="C13" library="capacitors" deviceset="C" device="2211" value="2200p/250Vac"/>
 <part name="R1" library="resistors" deviceset="R" device="15X6" value="ULW3-10RJ"/>
 <part name="D7" library="supressors" deviceset="SMCJ400CA" device=""/>
 <part name="D6" library="diodes" deviceset="HD06" device=""/>
@@ -1615,7 +1624,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="FIDUCIAL2" library="unsorted" deviceset="FIDUCIAL" device=""/>
 <part name="FIDUCIAL3" library="unsorted" deviceset="FIDUCIAL" device=""/>
 <part name="FIDUCIAL1" library="unsorted" deviceset="FIDUCIAL" device=""/>
-<part name="C7" library="capacitors" deviceset="C" device="1812" value="1n/2kV"/>
+<part name="C7" library="capacitors" deviceset="C" device="1812" value="1000p/250Vac"/>
 <part name="SUPPLY1" library="powersymbols" deviceset="EARTH" device=""/>
 <part name="SUPPLY2" library="powersymbols" deviceset="EARTH" device=""/>
 <part name="U$1" library="powersymbols" deviceset="0V/1" device=""/>
@@ -1623,14 +1632,14 @@ DIN A3, landscape with location and doc. field</description>
 <part name="Q1" library="transistors" deviceset="STD6N95K5" device=""/>
 <part name="D4" library="diodes" deviceset="MURS360S" device=""/>
 <part name="R5" library="resistors" deviceset="R" device="1206" value="130"/>
-<part name="C9" library="capacitors" deviceset="C" device="1812" value="1n/2kV"/>
+<part name="C9" library="capacitors" deviceset="C" device="1812" value="1000p/250Vac"/>
 <part name="U1" library="integratedcircuits" deviceset="UCC28710" device=""/>
 <part name="D5" library="diodes" deviceset="BAS21" device=""/>
 <part name="C10" library="capacitors" deviceset="C" device="1206" value="10u/50v"/>
 <part name="R7" library="resistors" deviceset="R" device="0603" value="121k"/>
 <part name="R8" library="resistors" deviceset="R" device="0603" value="24k9"/>
 <part name="R12" library="resistors" deviceset="R" device="0603" value="1k"/>
-<part name="R11" library="resistors" deviceset="R" device="2512" value="0.5"/>
+<part name="R11" library="resistors" deviceset="R" device="2512" value="0.5/0.8W"/>
 <part name="C6" library="capacitors" deviceset="C" device="0603" value="100n"/>
 <part name="R3" library="resistors" deviceset="R" device="0603" value="1k"/>
 <part name="R4" library="resistors" deviceset="R" device="1206" value="39"/>
@@ -1638,7 +1647,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C4" library="capacitors" deviceset="C+" device="D10" value="1500u"/>
 <part name="C5" library="capacitors" deviceset="C+" device="D10" value="1500u"/>
 <part name="J2" library="board-to-board" deviceset="254-2X5M" device="" value="254-2X5M"/>
-<part name="C8" library="capacitors" deviceset="C" device="1812" value="1n/2kv"/>
+<part name="C8" library="capacitors" deviceset="C" device="1812" value="1000p/250Vac"/>
 <part name="J1" library="board-to-board" deviceset="254-2X5F" device="" value="254-2X5F"/>
 <part name="D2" library="diodes" deviceset="PDS1040L" device=""/>
 <part name="U$2" library="powersymbols" deviceset="0V/1" device=""/>
@@ -1670,7 +1679,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="L1" library="powermagnetics" deviceset="744821150" device=""/>
 <part name="0V7" library="powersymbols" deviceset="0V" device=""/>
 <part name="U$7" library="powersymbols" deviceset="+5V/2" device=""/>
-<part name="D1" library="diodes" deviceset="1SMB59XXBT3G" device="" value="1SMB5919BT3G"/>
+<part name="D1" library="diodes" deviceset="1SMB5919BT3G" device="" value="1SMB5919BT3G"/>
 <part name="R2" library="resistors" deviceset="R" device="1206" value="1"/>
 </parts>
 <sheets>
@@ -1797,8 +1806,8 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="VALUE" x="218.44" y="198.628" size="1.778" layer="96" ratio="10" align="top-left"/>
 </instance>
 <instance part="R11" gate="A" x="241.3" y="190.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="245.872" y="192.786" size="1.778" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="246.126" y="188.722" size="1.778" layer="96" ratio="10" rot="R180" align="top-left"/>
+<attribute name="NAME" x="238.252" y="190.246" size="1.778" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="244.348" y="196.596" size="1.778" layer="96" ratio="10" rot="R270" align="top-left"/>
 </instance>
 <instance part="C6" gate="G$1" x="340.36" y="203.2" smashed="yes">
 <attribute name="NAME" x="343.408" y="203.962" size="1.778" layer="95" ratio="10"/>
