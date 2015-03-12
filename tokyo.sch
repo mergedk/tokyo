@@ -936,7 +936,7 @@ DIN A3, landscape with location and doc. field</description>
 </symbols>
 <devicesets>
 <deviceset name="9774050151" prefix="P">
-<description>5 mm steel spacer M2.5 internal thread</description>
+<description>5.0 mm steel spacer M2.5 internal thread</description>
 <gates>
 <gate name="G$1" symbol="PIN-FV" x="0" y="0"/>
 </gates>
