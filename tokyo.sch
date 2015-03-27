@@ -1635,7 +1635,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C9" library="capacitors" deviceset="C" device="1812" value="1000p/250Vac"/>
 <part name="U1" library="integratedcircuits" deviceset="UCC28710" device=""/>
 <part name="D5" library="diodes" deviceset="BAS21" device=""/>
-<part name="C10" library="capacitors" deviceset="C" device="1206" value="10u/50v"/>
+<part name="C10" library="capacitors" deviceset="C" device="1206" value="10u/50V"/>
 <part name="R7" library="resistors" deviceset="R" device="0603" value="121k"/>
 <part name="R8" library="resistors" deviceset="R" device="0603" value="24k9"/>
 <part name="R12" library="resistors" deviceset="R" device="0603" value="1k"/>
