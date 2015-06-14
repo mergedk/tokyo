@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1641,7 +1641,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R12" library="resistors" deviceset="R" device="0603" value="1k"/>
 <part name="R11" library="resistors" deviceset="R" device="2512" value="0.5/0.8W"/>
 <part name="C6" library="capacitors" deviceset="C" device="0603" value="100n"/>
-<part name="R3" library="resistors" deviceset="R" device="0603" value="1k"/>
+<part name="R3" library="resistors" deviceset="R" device="0603" value="330"/>
 <part name="R4" library="resistors" deviceset="R" device="1206" value="39"/>
 <part name="LD1" library="unsorted" deviceset="LED3" device=""/>
 <part name="C4" library="capacitors" deviceset="C+" device="D10" value="1500u"/>
