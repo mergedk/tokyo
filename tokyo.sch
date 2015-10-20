@@ -1628,8 +1628,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U1" library="integratedcircuits" deviceset="UCC28710" device=""/>
 <part name="D6" library="diodes" deviceset="BAS21" device=""/>
 <part name="C10" library="capacitors" deviceset="C" device="1206" value="10u/50V"/>
-<part name="R14" library="resistors" deviceset="R" device="0603" value="121k"/>
-<part name="R13" library="resistors" deviceset="R" device="0603" value="24k9"/>
+<part name="R14" library="resistors" deviceset="R" device="0603" value="118k"/>
+<part name="R13" library="resistors" deviceset="R" device="0603" value="22k6"/>
 <part name="R12" library="resistors" deviceset="R" device="0603" value="1k"/>
 <part name="R7" library="resistors" deviceset="R" device="2512" value="0.5/0.8W"/>
 <part name="C11" library="capacitors" deviceset="C" device="0603" value="100n"/>
