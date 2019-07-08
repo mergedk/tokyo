@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2172,20 +2172,20 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="+5V/2" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="358.14" y1="165.1" x2="363.22" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="165.1" x2="363.22" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="342.9" y1="162.56" x2="337.82" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="162.56" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="342.9" y1="165.1" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
-<junction x="337.82" y="165.1"/>
 <wire x1="363.22" y1="170.18" x2="350.52" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="170.18" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="170.18" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="+5V/2"/>
 <junction x="350.52" y="170.18"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="358.14" y1="160.02" x2="363.22" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="160.02" x2="363.22" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="162.56" x2="363.22" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="170.18" x2="337.82" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="337.82" y1="160.02" x2="342.9" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="358.14" y1="162.56" x2="363.22" y2="162.56" width="0.1524" layer="91"/>
+<junction x="363.22" y="162.56"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="8"/>
