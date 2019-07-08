@@ -1,0 +1,9 @@
+syntax: glob
+revision
+00-CONTENTS
+00-TODO
+*.l\#1
+*.s\#1
+*.b\#1
+._*
+.DS_Store
